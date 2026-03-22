@@ -1,0 +1,158 @@
+.background {
+  background-image: url(../../images/futuristic-tecnology.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 1980px;
+}
+
+.header {
+  background-color: rgb(0, 33, 60, 0.8);
+  display: flex;
+  align-items: center;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-block: 1px solid;
+  border-color: rgb(255, 255, 255, 0.7);
+}
+
+.header-button {
+  display: inline-block;
+  padding: 7px;
+  margin-left: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: rgb(255, 255, 255, 0.7);
+  border-color: transparent;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+}
+.header-button:hover {
+  border-color: white;
+  color: white;
+  transition: 0.15s;
+}
+
+.main-name {
+  text-decoration: none;
+  margin-left: 60px;
+  margin-right: 760px;
+  font-size: 34px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.main-name:hover {
+  transition: 0.15s;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: transparent;
+  padding-top: 2px;
+}
+
+.footer-text {
+  font-size: 15px;
+  color: rgb(255, 255, 255, 0.7);
+  margin-left: 47%;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+}
+
+.footer-text:hover {
+  transition: 0.5s;
+  color: red;
+}
+.innovatech-data {
+  background-color: rgb(0, 33, 60, 0.8);
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+  margin-left: 400px;
+  padding: 14px;
+  width: 600px;
+  height: 500px;
+  border: 1px solid;
+  border-color: rgb(255, 255, 255, 0.7);
+}
+
+.main-heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 70px;
+  margin: 0px;
+  margin-top: 5px;
+  color: rgb(255, 255, 255, 0.7);
+  text-align: center;
+}
+
+.main-text {
+  margin-top: 6px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: rgb(255, 255, 255, 0.7);
+  text-align: center;
+}
+
+.innovatech-flex {
+  justify-content: space-evenly;
+  margin-top: 150px;
+  display: flex;
+  width: 1400px;
+  height: fit-content;
+}
+
+.box {
+  background-color: rgb(0, 33, 60, 0.8);
+  display: block;
+  width: 350px;
+  height: fit-content;
+  padding: 8px;
+  border: 1px solid;
+  border-color: rgb(255, 255, 255, 0.7);
+}
+
+.flex-heading {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: rgb(255, 255, 255, 0.7);
+  cursor: default;
+}
+
+.flex-text {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: rgb(255, 255, 255, 0.7);
+  cursor: default;
+}
+
+div:hover {
+  border-color: white;
+}
+
+p:hover {
+  color: white;
+}

@@ -1,0 +1,77 @@
+.background {
+  background-image: url(../../images/data.jpg);
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  background-size: cover;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  padding-block: 8px;
+  user-select: none;
+  --gap: 30px;
+  gap: var(--gap);
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  flex-shrink: 0;
+  min-width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--gap);
+  animation: scroll 40s linear infinite;
+}
+
+@keyframes scroll {
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+.data-Vault {
+  color: white;
+  font-size: 90px;
+  font-family: "Montserrat", sans-serif;
+  position: fixed;
+  left: 50px;
+  top: 500px;
+  cursor: default;
+}
+
+.data-Storage {
+  color: white;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  position: fixed;
+  left: 55px;
+  top: 650px;
+  cursor: default;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.footer-text {
+  font-size: 15px;
+  color: white;
+  margin-left: 47%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 30px;
+}
+
+.footer-text:hover {
+  transition: 1s;
+  color: rgb(255, 0, 0);
+}
